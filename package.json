@@ -1,9 +1,11 @@
 {
-  "name": "twitter-clone",
+  "name": "aytvideos-blog",
+  "description": "Where my Blogs, Videos and Community Lives.",
+  "license": "MIT / GPLV3",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "emulators": "firebase emulators:start --only firestore,auth,storage,functions",
+    "emulators": "",
     "dev": "next dev -p 80",
     "dev:emulators": "concurrently npm:dev npm:emulators",
     "build": "next build",
@@ -22,8 +24,6 @@
     "@vercel/speed-insights": "^1.0.12",
     "clsx": "^1.2.1",
     "dompurify": "^3.1.6",
-    "firebase": "^9.9.4",
-    "firebase-admin": "^12.4.0",
     "framer-motion": "^7.2.1",
     "install": "^0.13.0",
     "next": "^14.2.8",
